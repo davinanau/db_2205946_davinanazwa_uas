@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 07, 2024 at 12:28 PM
+-- Generation Time: Jan 08, 2024 at 09:33 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -44,13 +44,13 @@ INSERT INTO `pasien_puskesmas_davina` (`id`, `nama`, `usia`, `jenis_kelamin`, `a
 (1, 'Satoru Gojo', 28, 'Laki-laki', 'Jl. Shibuya', 'Kepala terasa pusing, badan pegal-pegal, dan tidur tidak teratur'),
 (2, 'Megumi Fushiguro', 18, 'Laki-laki', 'Jl. Fujiko', 'Badan terasa berat, sering kunang-kunang'),
 (3, 'Suguru Geto', 27, 'Laki-laki', 'Jl. Asakusa', 'Tidur tidak teratur, sulit menelan makan, sering sakit di bagian kerongkongan'),
-(4, 'Nanami Kento', 27, 'Laki-laki', 'Jl. Kuantan', 'Badan pegal-pegal, meriang, dan tidak bisa tidur'),
+(4, 'Nanami Kento', 27, 'Laki-laki', 'Jl. Kuantan', 'Badan pegal-pegal, dan tidak bisa tidur'),
 (5, 'Shoko Ieri', 28, 'Perempuan', 'Jl. Akihabara', 'Sulit menggerakan kedua tangan, nafas terasa berat'),
 (9, 'Toji Fushiguro', 47, 'Laki-laki', 'Jl. Osaka', 'Badan pegal-pegal, kepala sakit saat menengok'),
 (10, 'Davina Nazwa', 19, 'Perempuan', 'Jl. Kyoto', 'Sakit badan, pegal-pegal'),
 (12, 'Rin Itoshi', 18, 'Laki-laki', 'Jl. Kenanga', 'Badan pegal-pegal'),
 (14, 'Haibara Yuu', 17, 'Laki-laki', 'Jl. Jujutsu', 'Sakit kepala, sakit pinggang'),
-(22, 'Sae Itoshi', 20, 'Laki-laki', 'Jl. Bintang', 'Sakit kepala, sakit pinggang, mata berkunang-kunang');
+(22, 'Sae Itoshi', 20, 'Laki-laki', 'Jl. Bintang', 'Sakit kepala, sakit pinggang, mata berkunang-kunang, mata berair');
 
 --
 -- Indexes for dumped tables
@@ -70,7 +70,7 @@ ALTER TABLE `pasien_puskesmas_davina`
 -- AUTO_INCREMENT for table `pasien_puskesmas_davina`
 --
 ALTER TABLE `pasien_puskesmas_davina`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
