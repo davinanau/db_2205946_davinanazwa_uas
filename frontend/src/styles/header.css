@@ -1,0 +1,13 @@
+/* styles.css */
+.bg-peach {
+    background-color: rgb(161, 221, 224); 
+}
+
+.navbar {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar-brand {
+    color: rgb(46, 106, 114);
+    font-weight: bold;
+}

@@ -1,0 +1,35 @@
+.container-fluid {
+  height: 100vh;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.home-background {
+  background-image: url('../assets/background1.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.col-md-6 {
+  padding: 20px;
+  background-color: rgb(161, 221, 224);
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.btn-primary {
+  font-size: 1.5rem;
+}

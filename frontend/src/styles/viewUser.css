@@ -1,0 +1,45 @@
+.bg {
+    background-color: rgb(214, 245, 255);
+}
+
+.card {
+    box-shadow: 1px -1px 1px #0000001a;
+}
+
+.text-center { 
+    color: rgb(46, 106, 114);
+}
+
+.imagess {
+    height: 250px;
+    overflow: hidden;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: rgb(46, 106, 114);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.row {
+    margin-bottom: 15px;
+}
+
+.col-sm-4 {
+    font-weight: bold;
+}
+
+.col-sm-8 {
+    font-style: italic;
+}
+
+.description {
+    max-width: 100%;
+    overflow: auto;
+    white-space: pre-wrap; 
+}
